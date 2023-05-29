@@ -59,7 +59,7 @@ class ExampleApp(QtWidgets.QMainWindow, Ui_MainWindow):
         elif response.status_code == 401:
             self.add_text('Login or password is incorrect')
         else:
-            self.add_text('Error')
+            self.add_text('Error action')
 
 
 app = QtWidgets.QApplication([])
