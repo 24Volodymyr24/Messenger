@@ -62,3 +62,5 @@ def messages_view():
     return {'messages': filtered_messages}
 
 app.run()
+
+#python server.py
